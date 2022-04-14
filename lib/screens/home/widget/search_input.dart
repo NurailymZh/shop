@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class SearchInput extends StatelessWidget {
-  final tagsList = ['bracelets', 'rings', 'necklace'];
+  final tagsList = ['браслеты', 'серьги', 'ожерелье'];
    @override
   Widget build(BuildContext context) {
     return Container(
@@ -20,7 +20,7 @@ class SearchInput extends StatelessWidget {
                     border: OutlineInputBorder(
                      borderRadius: BorderRadius.circular(10),
                      borderSide: BorderSide.none ),
-                     hintText: 'Search for jewelry',
+                     hintText: 'Искать украшение',
                      hintStyle: TextStyle(
                        color: Colors.grey, fontSize: 18),
                        prefixIcon: Container(

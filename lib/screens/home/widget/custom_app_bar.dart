@@ -14,13 +14,13 @@ class CustomAppBar extends StatelessWidget {
           children: [
             RichText(
               text: const TextSpan(children: [
-                TextSpan(text: 'Что вы искали?',
+                TextSpan(text: 'Добро Пожаловать',
                 style: TextStyle(
                   color: Colors.black,
                   fontSize: 22,
                   fontWeight: FontWeight.bold
                 )),
-                TextSpan(text: '💛',
+                TextSpan(text: '✨',
                 style: TextStyle(fontSize: 22))
               ]))
           ],
